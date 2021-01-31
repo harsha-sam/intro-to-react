@@ -1,6 +1,10 @@
 import React from 'react';
 
-const Book = () => {
-    return <h1>This is a book</h1>
+const Book = ({img, title, author}) => {
+    return <article className="product">
+        <img src={img} alt={title}/>
+        <h3>{title}</h3>
+        <h4>{author}</h4>
+    </article>
 }
 export default Book;

@@ -14,6 +14,12 @@ import books from "../../../books-data";
 // }
 
 const BookList = () => {
-    return <h1>This is a book list</h1>
+    return <section className="products">
+    {
+        books.map((book, index) => {
+            return <Book {...book} key={index}/>
+        })
+    }
+    </section>
 }
 export default BookList;
