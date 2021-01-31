@@ -1,7 +1,6 @@
 import React from 'react';
 import Book from './Book';
 import books from "../../../books-data";
-// import './BookList.css'
 
 // const firstBook =  {
 //     img: "https://images-na.ssl-images-amazon.com/images/I/41pIJKMo8RL._SX355_BO1,204,203,200_.jpg",
